@@ -5,8 +5,8 @@ export default class Parent extends PureComponent {
     carName: 'Mazda'
   }
   changeCar = () => {
-    // this.setState({carName: 'BMW'})
-    this.setState({})
+    this.setState({carName: 'BMW'})
+    // this.setState({})
   }
   // shouldComponentUpdate(nextProps,nextState) {
   //   console.log(this.props, this.state)   // 目前的props和state 
@@ -33,7 +33,7 @@ class Child extends PureComponent{
     return(
       <div className="child">
         <h4>我是Child组件</h4>
-        <h5>我接收到车的名字是：{this.props.carName}</h5>
+        {/* <h5>我接收到车的名字是：{this.props.carName}</h5> */}
       </div>
     )
   }

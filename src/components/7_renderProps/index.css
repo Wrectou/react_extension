@@ -1,0 +1,15 @@
+.parent{
+  width: 500px;
+  background: #f1f1f1;
+  padding: 8px;
+}
+.a{
+  width: 100%;
+  background: skyblue;
+  padding: 8px;
+}
+.b{
+  width: 100%;
+  background: orange;
+  padding: 8px;
+}
